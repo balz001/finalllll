@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуга 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(135deg, rgba(0, 0, 255, 0.5), rgba(128, 0, 128, 0.5)); /* Градиент прозрачно синего и фиолеттового цвета */
+            color: #333;
+        }
+
+        header {
+            text-align: left;
+            padding: 1em;
+            background-color: #fff;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)); /* Градиент белого цвета */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Тень для выделения */
+        }
+
+        section {
+            display: flex;
+            align-items: flex-start;
+            padding: 2em;
+        }
+
+        .service-description {
+            flex: 2;
+        }
+
+        .articles {
+            flex: 1;
+            margin-bottom: 2em;
+            align-items: center
+        }
+
+        .article {
+            margin-bottom: 1em;
+            padding: 1em;
+            background-color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            align-items: center
+        }
+
+        .article:hover {
+            background-color: #f0f0f0;
+        }
+
+        img {
+            width: 62%; /* Изменили максимальную ширину на 80% */
+            height: 70;
+            margin: 1em auto;
+            display: block;
+            border-radius: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 24px;">Название услуги 1</h1>
+    </header>
+    <section>
+
+        <img src="https://skyteach.ru/wp-content/cache/thumb/f5/6286b657a3c6df5_920x0.jpg" alt="Пример изображения">
+    </section>
+
+    <section>
+        <div class="service-description">
+            <h2>Описание услуги 1</h2>
+            <p>Здесь вы можете разместить описание вашей услуги.</p>
+        </div>
+
+        <div class="articles">
+            <div class="article" onclick="window.open('статья_1.html', '_blank');">
+                <h3>Статья 1</h3>
+                <p>Описание статьи 1</p>
+            </div>
+
+            <div class="article" onclick="window.open('статья_2.html', '_blank');">
+                <h3>Статья 2</h3>
+    
+            </div>
+
+            <div class="article" onclick="window.open('статья_3.html', '_blank');">
+                <h3>Статья 3</h3>
+             
+            </div>
+
+            <div class="article" onclick="window.open('статья_4.html', '_blank');">
+                <h3>Статья 4</h3>
+                
+            </div>
+
+            <div class="article" onclick="window.open('статья_5.html', '_blank');">
+                <h3>Статья 5</h3>
+             
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
